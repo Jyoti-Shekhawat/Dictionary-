@@ -60,7 +60,7 @@ body{
     background-color: rgb(162, 204, 76); /* Darker shade of the initial color */
     color: white; /* Slightly lighter text color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
-    transform: scale(1.05); /* Slightly scales up the button */
+    transform: scale(1); /* Slightly scales up the button */
 }
 
 #title{
