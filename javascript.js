@@ -97,7 +97,7 @@ async function RawData(data) {
 function defination(rawdata) {
 
     
-    hDef.innerText = "Definition";
+    hDef.innerText = "DEFINITION";
     definitionList.insertAdjacentElement("beforebegin", hDef);
 
 
@@ -115,7 +115,7 @@ function defination(rawdata) {
 }
 function synonyms(rawdata) {
     
-    hSyn.innerText = "Synonyms";
+    hSyn.innerText = "SYNONYMS";
     synonymList.insertAdjacentElement("beforebegin", hSyn);
     let count = 0;
     for (let j = 0; j < rawdata.length; j++) {
@@ -138,7 +138,7 @@ function synonyms(rawdata) {
 }
 function antonyms(rawdata) {
     
-    hAnt.innerText = "Antonyms";
+    hAnt.innerText = "ANTONYMS";
     antonymsList.insertAdjacentElement("beforebegin", hAnt);
    let count = 0; 
     for (let j = 0; j < rawdata.length; j++) {

@@ -16,6 +16,8 @@ body{
     margin: auto !important;
     display: flex !important;
     justify-content: center !important;
+    margin-top: 90px !important;
+
     
 }
 #input{
@@ -23,27 +25,28 @@ body{
     height: 36px !important;
     width: 500px !important;
     font-size:large;
+    margin-top: 20px !important;
 }
 
-.inputF {
-    margin-top: 30px !important;
-}
 
 #btn{
     text-align: center;
-   margin-left: 10px;
-   height: 35px;
+    margin-left: 10px;
+    color: black;
+    height: 35px;
     width: 100px;
     font-size:large;
+    margin-top: 20px !important;
    
 }
 #title{
     text-align: center; 
     font-weight:bolder;
+    font-size:150%
     
 }
 #antonyms{
-    font-size:larger;
+    font-size:large;
     text-align:left
 }
 
