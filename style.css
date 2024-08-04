@@ -1,0 +1,81 @@
+body{
+    
+   
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-align: left !important;
+    font-size: xx-large !important;
+    margin-left: 50px !important;
+    margin-top: 20px !important;
+    color: white !important;
+    background-size: cover; 
+    background-image: url(black-1072366_1920.jpg);
+
+}
+
+#header{
+    margin: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    
+}
+#input{
+    text-align: center !important;
+    height: 36px !important;
+    width: 500px !important;
+    font-size:large;
+}
+
+.inputF {
+    margin-top: 30px !important;
+}
+
+#btn{
+    text-align: center;
+   margin-left: 10px;
+   height: 35px;
+    width: 100px;
+    font-size:large;
+   
+}
+#title{
+    text-align: center; 
+    font-weight:bolder;
+    
+}
+#antonyms{
+    font-size:larger;
+    text-align:left
+}
+
+#definition{
+    font-size: large;
+    text-align:left
+}
+
+#synonymList{
+    font-size: large;
+    text-align:left 
+}
+
+#antonymsList{
+    font-size: large;
+    text-align:left 
+}
+
+.text{
+    font-size: large;
+}
+
+#phonetics{
+    color: yellowgreen;
+    margin-top: 40px;
+    
+}
+
+span{
+    padding: 10px;  
+}
+
+i{
+    padding-right: 10px;
+}
