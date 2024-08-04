@@ -28,17 +28,41 @@ body{
     margin-top: 20px !important;
 }
 
+.fa-volume-high{
+    font-size: 35px; /* Initial font size */
+    font-weight: bolder;
+    color: rgb(117, 240, 247); /* Initial color */
+    transition: all 0.3s ease; /* Smooth transition for the effects */
+}
 
-#btn{
+.fa-volume-high:hover {
+    font-size: 38px; /* Increase the size when hovered */
+    color:rgb(163, 241, 245); /* Change the color when hovered */
+}
+
+
+#btn {
     text-align: center;
     margin-left: 10px;
-    color: black;
+    color: white;
+    background-color: rgb(140, 180, 70);;
     height: 35px;
     width: 100px;
-    font-size:large;
+    font-size: large;
     margin-top: 20px !important;
-   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Makes the cursor a pointer to indicate a clickable button */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
+
+#btn:hover {
+    background-color: rgb(162, 204, 76); /* Darker shade of the initial color */
+    color: white; /* Slightly lighter text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+    transform: scale(1.05); /* Slightly scales up the button */
+}
+
 #title{
     text-align: center; 
     font-weight:bolder;
@@ -71,7 +95,8 @@ body{
 
 #phonetics{
     color: yellowgreen;
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 }
 
@@ -80,5 +105,5 @@ span{
 }
 
 i{
-    padding-right: 10px;
+    padding-right: 15px;
 }

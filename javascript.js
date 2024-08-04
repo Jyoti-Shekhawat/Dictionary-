@@ -98,6 +98,7 @@ function defination(rawdata) {
 
     
     hDef.innerText = "DEFINITION";
+    hDef.style.color="yellowgreen"
     definitionList.insertAdjacentElement("beforebegin", hDef);
 
 
@@ -116,6 +117,7 @@ function defination(rawdata) {
 function synonyms(rawdata) {
     
     hSyn.innerText = "SYNONYMS";
+    hSyn.style.color="yellowgreen"
     synonymList.insertAdjacentElement("beforebegin", hSyn);
     let count = 0;
     for (let j = 0; j < rawdata.length; j++) {
@@ -139,6 +141,7 @@ function synonyms(rawdata) {
 function antonyms(rawdata) {
     
     hAnt.innerText = "ANTONYMS";
+    hAnt.style.color="yellowgreen"
     antonymsList.insertAdjacentElement("beforebegin", hAnt);
    let count = 0; 
     for (let j = 0; j < rawdata.length; j++) {
@@ -213,7 +216,7 @@ async function phoneticsAudio(data) {
             if (phonetics[i].hasOwnProperty("audio")) {
                 count++;
                 if (count>=1 && phonetics[i].audio !== "") {
-                    console.log(phonetics[i].audio)
+                    // console.log(phonetics[i].audio)
                      audio = new Audio (phonetics[i].audio);
                      
                      
